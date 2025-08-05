@@ -1,6 +1,5 @@
 
 import flet as ft
-import modelo as md
 import consulta as CS
 import alta_usuario as AU
 import Registro_de_bioenergías as IRD  # <--- este es el archivo que te faltaba importar
@@ -50,4 +49,5 @@ def main (page: ft.Page):
 
 if __name__ == "__main__":
     ft.app(target=main,view=ft.AppView.WEB_BROWSER)
+
 
