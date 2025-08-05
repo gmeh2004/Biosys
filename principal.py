@@ -4,7 +4,7 @@ import modelo as md
 import consulta as CS
 import alta_usuario as AU
 import Registro_de_bioenergías as IRD  # <--- este es el archivo que te faltaba importar
-import login as CE
+import main as CE
 
 def main (page: ft.Page):
     #Configuración de la pagina
@@ -50,3 +50,4 @@ def main (page: ft.Page):
 
 if __name__ == "__main__":
     ft.app(target=main,view=ft.AppView.WEB_BROWSER)
+
