@@ -32,7 +32,7 @@ def main(page: ft.Page):
             page.open(snackbar)
         else:
             page.clean()
-            pr.main(page)
+            PR.main(page)
             # Puedes mostrar mensaje de bienvenida si quieres:
             # snackbar.content = ft.Text(f"Bienvenid@: {usuario_encontrado.nombre}")
             # page.open(snackbar)
@@ -77,4 +77,5 @@ def main(page: ft.Page):
 # Inicializar la aplicación
 if __name__ == "__main__":
     ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
 
