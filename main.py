@@ -1,7 +1,7 @@
 
 import flet as ft
 import Airtable as at
-import principal as pr  # Redirige a pantalla principal si el login es exitoso
+import principal as PR  # Redirige a pantalla principal si el login es exitoso
 
 def main(page: ft.Page):
 
@@ -77,3 +77,4 @@ def main(page: ft.Page):
 # Inicializar la aplicación
 if __name__ == "__main__":
     ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
