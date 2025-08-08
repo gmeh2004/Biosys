@@ -3,6 +3,7 @@ import Airtable as at
 import principal as PR
 
 def main(page: ft.Page):
+    page.title = "Registro bioenergia"
     # Definición de campos globales para poder usarlos en el guardado
     cultivo_dropdown = ft.Dropdown(
         on_change=lambda e: page.update(),
@@ -180,3 +181,4 @@ def main(page: ft.Page):
 
 if __name__ == "__main__":
     ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
